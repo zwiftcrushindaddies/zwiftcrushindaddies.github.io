@@ -1,4 +1,4 @@
-baseURL = 'https://zwiftcrushindaddies.github.io/zcd-site/'
+baseURL = 'https://zwiftcrushindaddies.github.io/'
 languageCode = 'en-us'
 title = 'Zwift Crushin Daddies'
 theme = "hyde"
