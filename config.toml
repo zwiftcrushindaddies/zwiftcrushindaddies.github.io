@@ -1,0 +1,6 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Zwift Crushin Daddies'
+theme = "hyde"
+[Params]
+description = 'wow check out this great site'
