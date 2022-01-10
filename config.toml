@@ -24,8 +24,8 @@ theme = "blackburn"
     name = "Tips and Info"
     pre = "<i class='fa fa-book-open fa-fw'></i>"
     weight = 3
-    identifier = "about"
-    url = "/about/"
+    identifier = "tips"
+    url = "/tips/"
   [[menu.main]]
     name = "Videos"
     pre = "<i class='fa fa-video fa-fw'></i>"
