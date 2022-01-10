@@ -1,6 +1,5 @@
 body {
-    /* color: #777; */
-    color: #202020;
+    color: #777;
 }
 
 .pure-img-responsive {
@@ -88,7 +87,7 @@ appears on the left side of the page.
     left: 0;
     bottom: 0;
     z-index: 1000; /* so the menu or its navicon stays above all content */
-    background: #0980b4;
+    background: #191818;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 }
@@ -96,8 +95,7 @@ appears on the left side of the page.
     All anchors inside the menu should be styled like this.
     */
     #menu a {
-        /* color: #999; */
-        color: #202020;
+        color: #999;
         border: none;
         padding: 0.6em 0 0.6em 0.6em;
     }
@@ -123,9 +121,7 @@ appears on the left side of the page.
         */
         #menu .pure-menu li a:hover,
         #menu .pure-menu li a:focus {
-            /* background: #333; */
-            background: #eb6421;
-            color: #272727;
+            background: #333;
         }
 
     /*
