@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'Zwift Crushin Daddies'
 theme = "blackburn"
 
+[params]
+  custom_css = ["css/overrides.css"]
+
 [menu]
   # Shown in the side menu.
   [[menu.main]]
