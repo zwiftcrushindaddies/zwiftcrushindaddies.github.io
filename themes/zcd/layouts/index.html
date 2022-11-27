@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/base.css">
     <title>{{.Title}}</title>
 </head>
 <body>
+    {{ $image := resources.Get "images/zcd-logo.png" }}
+    <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
     <h1>{{.Title}}</h1>
+    <ul>
+        {{ range .Site.Menus.main }}
+        <li><a href="{{.URL}}">{{.Name}}</a></li>
+        {{ end }}
+    </ul>
 </body>
 </html>
