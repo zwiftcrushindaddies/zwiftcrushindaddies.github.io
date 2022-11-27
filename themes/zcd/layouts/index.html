@@ -8,13 +8,16 @@
     <title>{{.Title}}</title>
 </head>
 <body>
-    {{ $image := resources.Get "images/zcd-logo.png" }}
-    <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
-    <h1>{{.Title}}</h1>
-    <ul>
-        {{ range .Site.Menus.main }}
-        <li><a href="{{.URL}}">{{.Name}}</a></li>
-        {{ end }}
-    </ul>
+    <main>
+        {{ $image := resources.Get "images/zcd-logo.png" }}
+        <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+        <h1>{{.Title}}</h1>
+        <p>{{.Params.description}}</p>
+        <ul class="links">
+            {{ range .Params.links }}
+            <li><a href="{{.url}}">{{.name}}</a></li>
+            {{ end }}
+        </ul>
+    </main>
 </body>
 </html>

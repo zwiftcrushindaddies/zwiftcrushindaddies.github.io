@@ -3,32 +3,8 @@ languageCode = 'en-us'
 title = 'Zwift Crushin Daddies'
 theme = "zcd"
 
+
 [params]
   custom_css = ["css/overrides.css"]
 
 [menu]
-  # Shown in the side menu.
-  [[menu.main]]
-    name = "Home"
-    pre = "<i class='fa fa-home fa-fw'></i>"
-    weight = 1
-    identifier = "home"
-    url = "/"
-  [[menu.main]]
-    name = "Roster"
-    pre = "<i class='fa fa-users fa-fw'></i>"
-    weight = 2
-    identifier = "roster"
-    url = "/roster/"
-  [[menu.main]]
-    name = "Tips and Info"
-    pre = "<i class='fa fa-book-open fa-fw'></i>"
-    weight = 3
-    identifier = "tips"
-    url = "/tips/"
-  [[menu.main]]
-    name = "Videos"
-    pre = "<i class='fa fa-video fa-fw'></i>"
-    weight = 3
-    identifier = "videos"
-    url = "/video/"
